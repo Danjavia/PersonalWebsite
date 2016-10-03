@@ -8,6 +8,7 @@ import 'antd/dist/antd.css';
 
 // 1. Initialize
 const app = dva({
+    history: browserHistory,
     initialState: {
       posts: [
         { name: 'dva', id: 1 },
